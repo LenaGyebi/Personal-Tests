@@ -1,9 +1,19 @@
 #include <stdio.h>
+/**
+ * First line of commenting 
+ * trying my hands on betty style of commenting 
+ *
+ */
 
 int main (void)
 {
+	int speed = 45;
+	
+	int time = 30;
 
-	printf("The world is saying hello to you as a new programmer\n");
+	int distance = speed * time;
+
+	printf("%d\n", distance);
 
 	return 0;
 }
